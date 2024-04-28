@@ -1,0 +1,133 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }*/
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 100;
+    background-color: black;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+
+#background {
+    margin-top: 69px;
+    position: relative;
+    width: 1200px;
+    height: 800px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    position: absolute;
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+
+.heading {
+    background-color: black;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cards {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.cards div {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.cards div img {
+    height: 200px;
+    width: 300px;
+}
+
+.cards div h4 {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    height: 550px;
+    margin: 0 auto;
+    background-image: url("/Users/g.seitz-mcintyre/vscodeProjects/WebDev/tea_cozy/images/img-locations-background.jpg");
+}
+
+#locations h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.location_cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.location_cards div {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+#contact {
+    text-align: center;
+    height: 200px;
+    margin-top: 0;
+}
+
+
