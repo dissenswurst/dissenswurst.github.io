@@ -14,6 +14,8 @@ body {
 .main {
   height: 30rem;
   padding-top: 1rem;
+  background-image: url('bg-photo.png');
+  background-position: center;
 }
 
 .main img {
