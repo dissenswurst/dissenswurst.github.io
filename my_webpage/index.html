@@ -3,20 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Grid Layout</title>
+    <title>Basic Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>My Grid Layout</h1>
+        <nav>
+            <ul>
+                <li>Journal</li>
+                <li>Projects</li>
+                <li>Knowledge Base</li>
+            </ul>
+        </nav>
     </header>
     <main class="grid-container">
-        <section class="grid-item">Item 1</section>
-        <section class="grid-item">Item 2</section>
-        <section class="grid-item">Item 3</section>
-        <section class="grid-item">Item 4</section>
-        <section class="grid-item">Item 5</section>
-        <section class="grid-item">Item 6</section>
+        <section id = "sidebar" class="grid-item">
+            <h2>Sidebar</h2>
+            <div class="flex-item">Search based on date</div>
+            <div class="flex-item">Search based on topic</div>
+            <div class="flex-item">Analytics</div>
+        </section>
+        <section id = "entries" class="grid-item">
+            <h2>Journal Entries</h2>
+            <div class="flex-item">My Perfect Vacation: A Journey to Remember</div>
+            <div class="flex-item">A Day in My Dream Life</div>
+            <div class="flex-item">The Most Unforgettable Meal I've Ever Had</div>
+            <div class="flex-item">If I Were a Superhero, My Powers Would Be...</div>
+            <div class="flex-item">A Letter to My Future Self</div>
+            <div class="flex-item">The Funniest Thing That Ever Happened to Me</div>
+            <div class="flex-item">A Day Without Technology: My Experience</div>
+            <div class="flex-item">If I Could Live in Any Book or Movie, It Would Be...</div>
+            <div class="flex-item">My Top 10 Favorite Things About Summer</div>
+            <div class="flex-item">An Adventure in an Imaginary World</div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 My Website</p>

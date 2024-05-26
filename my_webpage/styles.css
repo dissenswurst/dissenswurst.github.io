@@ -11,9 +11,21 @@ header, footer {
     padding: 1em 0;
 }
 
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.sidebar {
+    float: left;
+    height: 500px;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template: 500px / 300px 1fr;
     gap: 1em;
     padding: 1em;
 }
@@ -23,4 +35,23 @@ header, footer {
     border: 1px solid #ddd;
     padding: 1em;
     text-align: center;
+}
+
+#entries {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.flex-item {
+    background-color: rgb(249, 241, 197);
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 0.5em;
 }
